@@ -1,10 +1,9 @@
-export default function Box({position, frame, wireframe}) {
-  console.log({position, frame, wireframe});
+export default function Box(props) {
 
   return (
-    <mesh position={position} name={name} >
+    <mesh {...props} >
       <boxGeometry />
-      <meshBasicMaterial color={0x00ff00} wireframe={wireframe} />
+      <meshBasicMaterial color={0x00ff00} wireframe/>
     </mesh>
   );
 }

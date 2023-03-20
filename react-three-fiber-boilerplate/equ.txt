@@ -1,0 +1,6 @@
+Here is a possible system of equations that could describe the dynamic movement of the box in the code:
+
+x rotation: dx/dt = 1, where dx/dt is the rate of change of the x rotation angle over time.
+y rotation: dy/dt = 0.5, where dy/dt is the rate of change of the y rotation angle over time.
+y position: y = A*sin(t), where A is the amplitude of the oscillation, t is the elapsed time since the scene was rendered, and y is the position of the box along the y-axis.
+Note that the actual implementation of these equations in the code may differ slightly from this system, depending on the specific details of the @react-three/fiber library and the overall structure of the React component. However, this system captures the essential mathematical relationships between the different variables involved in the box's movement.

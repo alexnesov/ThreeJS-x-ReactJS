@@ -1,4 +1,4 @@
-# ReactJS X ThreeJS training
+# ThreeJS-x-ReactJS
 
 
 

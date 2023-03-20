@@ -24,6 +24,8 @@ export default function App() {
         maxPolarAngle={Math.PI - Math.PI / 6}
         />
       <Stats />
+      <axesHelper args={[3]}/>
+      <gridHelper></gridHelper>
     </Canvas>
   )
 }

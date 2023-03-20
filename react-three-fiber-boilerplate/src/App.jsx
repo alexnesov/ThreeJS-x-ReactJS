@@ -16,7 +16,13 @@ export default function App() {
       <Polyhedron position={[0.75, -0.75, 0]} polyhedron={polyhedron} />
       <Polyhedron position={[-0.75, 0.75, 0]} polyhedron={polyhedron} />
       <Polyhedron position={[0.75, 0.75, 0]} polyhedron={polyhedron} />
-      <OrbitControls enableDamping={true}/>
+      <OrbitControls 
+        enableDamping={true}
+        minAzimuthAngle={-Math.PI /4}
+        maxAzimuthAngle={Math.PI /4}
+        minPolarAngle={Math.PI /4}
+        maxPolarAngle={Math.PI - Math.PI / 6}
+        />
       <Stats />
     </Canvas>
   )
